@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">UDP Packet Sender</string>
     <string name="action_settings">Settings</string>
+    <string name="lblAddress">Host Address</string>
+    <string name="lblPort">Port</string>
+    <string name="lblData">HEX Data</string>
+    <string name="btnCreate">Create</string>
+    <string name="toastFillOutFields">All fields must be filled out</string>
 </resources>
