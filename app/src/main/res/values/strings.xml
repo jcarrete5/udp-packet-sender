@@ -1,9 +1,17 @@
 <resources>
     <string name="app_name">UDP Packet Sender</string>
     <string name="action_settings">Settings</string>
-    <string name="lblAddress">Host Address</string>
-    <string name="lblPort">Port</string>
-    <string name="lblData">HEX Data</string>
+    <string name="lblAddress">Host Address *</string>
+    <string name="lblPort">Port *</string>
+    <string name="lblData">HEX Data *</string>
     <string name="btnCreate">Create</string>
-    <string name="toastFillOutFields">All fields must be filled out</string>
+    <string name="toastFillOutFields">Fill out all marked (*) fields</string>
+    <string name="title_activity_create_task">Create a Task</string>
+    <string name="title_activity_list_tasks">Task List</string>
+    <string name="btnStopTask">Stop</string>
+    <string name="lblTaskName">Task Name</string>
+    <string name="lblRepetitions">Repetitions</string>
+    <string name="lblInterval">Interval</string>
+    <string name="toastInvalidHexData">Invalid HEX Data</string>
+    <string name="toastInvalidPort">Invalid port number</string>
 </resources>
