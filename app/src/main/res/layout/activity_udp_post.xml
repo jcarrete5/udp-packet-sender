@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:padding="16dp"
     android:orientation="vertical"
-    tools:context="com.fwumdesoft.udppacketsender.CreateTaskActivity"
+    tools:context=".UdpPostActivity"
     android:weightSum="1">
 
     <RelativeLayout
@@ -82,10 +82,10 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:text="@string/btnCreate"
-        android:id="@+id/btnCreate"
+        android:text="@string/btnPost"
+        android:id="@+id/btnPost"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.10"
-        android:onClick="createTask" />
+        android:onClick="sendUdpMessage" />
 
 </LinearLayout>
