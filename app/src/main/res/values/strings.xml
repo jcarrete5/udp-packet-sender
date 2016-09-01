@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">UDP Packet Sender</string>
-    <string name="lblAddress">Host Address *</string>
-    <string name="lblPort">Port *</string>
+    <string name="lblAddress">Target Address *</string>
+    <string name="lblPort">Target Port *</string>
     <string name="lblData">HEX Data *</string>
     <string name="btnPost">Send</string>
 
