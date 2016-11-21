@@ -16,7 +16,7 @@ import java.net.InetSocketAddress;
  * Posts a UDP message with the given data to the
  * target address on the target port.
  */
-public class UdpPostActivity extends AppCompatActivity {
+class UdpPostActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

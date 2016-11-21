@@ -79,6 +79,29 @@
 
     </RelativeLayout>
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.10">
+
+        <TextView
+            android:text="@string/lblStringData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/lblStringData" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:id="@+id/txtStringData"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/lblStringData" />
+    </RelativeLayout>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="0dp"
